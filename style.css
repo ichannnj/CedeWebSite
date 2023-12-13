@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 7.75rem;
+    height: 6.938rem;
+    margin-left: 3%;
+}
+
+.navigation{
+    display: flex;
+    column-gap: 10rem;
+    font-size: 1.5rem; 
+    margin-right: 15%;  
+    letter-spacing: 1.3rem;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;  
+}
+
+.content_1{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content_1_container{
+    display: flex;
+    height: 29.438rem;
+    background: #2D0042;
+    position: relative;
+    width: 100%;
+}
+
+.floating_img{  
+    height: 550px;
+}
+
+.title{
+    width: 50%;
+    background-color: #2D0042   ;
+    display: flex;
+    padding: 0 0 0 20%;
+}
+.title a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    column-gap: 3%;
+    color: #EDF204;
+    font-size: 1.7rem;
+    font-family: Inter;
+    font-weight: bolder;
+    line-height: 3.625rem;
+    letter-spacing: 0.05rem;
+    text-align: left;
+
+}
+
+.title a span {
+    font-size: 1.688rem;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title_img{
+    border: 0.3rem solid #EDF204  ;
+    border-radius: 100px;
+}
+
+.content_1_table{
+    display: flex;
+    bottom: 0;
+    width: 95%;
+    background-color: #2D0042;
+}
+
+.tg  {border-spacing:0; width: 100%; }
+.tg td{border-color:#EDF204;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 1%;word-break:normal; color:#EDF204;}
+.tg th{border-color:#EDF204;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:3% 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:middle; padding-left:4%;}
+.tg .tg-0lax h2 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+
+.tg .tg-0lax p, .tg .tg-0lax1 p {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.tg .tg-0lax1{ padding-left:4%; display: flex; align-items: center;}
+
+.text{
+    text-align:left;vertical-align:middle; padding-left:4%; 
+}
+
+.table_img{
+    padding-left: 20%;
+}
